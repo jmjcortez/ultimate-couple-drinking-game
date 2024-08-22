@@ -26,41 +26,41 @@ function App() {
 
     let index;
 
-    if (counter < 10) {
-      setStatus('Question')
+    // if (counter < 10) {
+    //   setStatus('Question')
 
-      index = questions[Math.floor(Math.random() * questions.length)];
-      setQuestion(index);
-      setQuestions(questions.filter((q) => ( q !== index )));
-      // await setQuestions(questions.splice(index, 1));
-      console.log(questions);
-    }
+    //   index = questions[Math.floor(Math.random() * questions.length)];
+    //   setQuestion(index);
+    //   setQuestions(questions.filter((q) => ( q !== index )));
+    //   // await setQuestions(questions.splice(index, 1));
+    //   console.log(questions);
+    // }
     // else if (counter >= 10 && counter < 16) {
-    else if (counter >= 12 && counter < 18) {
+    // else if (counter >= 12 && counter < 18) {
       setStatus('Most Likely')
       console.log(mostLikely)
       index = mostLikely[Math.floor(Math.random() * mostLikely.length)];
       setQuestion(index);
       setMostLikely(mostLikely.filter((q) => ( q !== index )));
       
-    }
-    else if (counter >= 10 && counter < 12) {
-    // else if (counter >= 16 && counter < 18) {
-      setStatus('How Well')
+    // }
+    // else if (counter >= 10 && counter < 12) {
+    // // else if (counter >= 16 && counter < 18) {
+    //   setStatus('How Well')
 
-      index = howWell[Math.floor(Math.random() * howWell.length)];
-      setQuestion(index);
-      setHowWell(howWell.filter((q) => ( q !== index )));
+    //   index = howWell[Math.floor(Math.random() * howWell.length)];
+    //   setQuestion(index);
+    //   setHowWell(howWell.filter((q) => ( q !== index )));
       
-    }
-    else {
-      setStatus('dare')
+    // }
+    // else {
+    //   setStatus('dare')
 
-      index = dares[Math.floor(Math.random() * dares.length)];
-      setQuestion(index);
-      setDares(dares.filter((q) => ( q !== index )));
+    //   index = dares[Math.floor(Math.random() * dares.length)];
+    //   setQuestion(index);
+    //   setDares(dares.filter((q) => ( q !== index )));
       
-    }
+    // }
 
     if (counter < 19) {
       setCounter(counter + 1)
@@ -110,7 +110,7 @@ function App() {
             <h1 className='score'>
               {secondPlayerScore}
             </h1>
-            <div className='name'>Olena</div>
+            <div className='name'>Diana</div>
             <button
               className='plusButton'
               onClick={() => {
