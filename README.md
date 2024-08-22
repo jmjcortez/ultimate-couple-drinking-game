@@ -1,5 +1,9 @@
 <b>Ultimate Couple Drinking Game</b>
 
+<b>!!!This game is NOT COMPATIBLE WITH MOBILE DEVICES!!!</b> We will work on making sure it works for it eventually.
+
+LIVE DEMO URL: https://ultimate-couple-drinking-game.vercel.app/
+
 Rules: 
 - Both couples take turns in answering the questions
 - The format of questions and rules goes like this
